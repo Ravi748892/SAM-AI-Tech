@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo List</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Smart Todo List</h1>
+
+            <button id="themeToggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </header>
+
+        <!-- Search -->
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search tasks..."
+            >
+        </div>
+
+        <!-- Add Task -->
+        <div class="task-input">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+            >
+
+            <input
+                type="date"
+                id="dueDate"
+            >
+
+            <button id="addTaskBtn">
+                Add
+            </button>
+
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="card">
+                <h3 id="totalTasks">0</h3>
+                <p>Total</p>
+            </div>
+
+            <div class="card">
+                <h3 id="completedTasks">0</h3>
+                <p>Completed</p>
+            </div>
+
+            <div class="card">
+                <h3 id="pendingTasks">0</h3>
+                <p>Pending</p>
+            </div>
+
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="active">
+                Active
+            </button>
+
+            <button class="filter-btn" data-filter="completed">
+                Completed
+            </button>
+
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList"></ul>
+
+        <!-- Empty State -->
+        <div id="emptyState">
+            No tasks available.
+            <br>
+            Add your first task....
+        </div>
+
+        <!-- Toast Notification -->
+        <div id="toast"></div>
+
+        <!-- Footer -->
+        <footer>
+
+            <button id="clearCompleted">
+                Clear Completed
+            </button>
+
+            <p>
+                Tasks stored locally in your browser
+            </p>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

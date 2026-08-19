@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Kumar - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href=".css"> -->
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container nav-container">
+            <div class="name-container">
+                <div class="letter letter'" data-letter="'">'</div>
+                <div class="letter letter-a " data-letter="R">R</div>
+                <div class="letter letter-s" data-letter="A">a</div>
+                <div class="letter letter-h" data-letter="v">v</div>
+                <div class="letter letter-i" data-letter="I">i</div>
+            </div>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger"> <i class="fas fa-bars"></i></div>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#project" class="nav-link">Project</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="profile-container">
+                <img src="profile.png.jpg" alt="Ravi kumar" class="profile-img">
+                <div class="profile-ellipse"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Ravi Kumar</span></h1>
+                <p>B.Tech Computer Science & Engineer</p>
+                <div class="hero-btns">
+                    <a href="images/ashish-resume.jpg" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <p>"Hi, I'm Ravi Kumar, a passionate fresher with a keen interest in web development and
+                    problem-solving. I recently completed my graduation and have hands-on experience with HTML, CSS,
+                    JavaScript, and Python through academic projects and self-learning."
+                </p><br>
+                <p>"I enjoy exploring new technologies, building small projects, and continuously improving my skills.
+                    As a quick learner and team player, I am eager to contribute to real-world projects and grow as a
+                    professional developer."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">My <span>Education</span></h2>
+            <center>
+                <h1 class="subtitle">Education and Professional Growth</h1>
+            </center>
+
+            <!-- Filter Buttons -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-book-atlas"></i> All</button>
+                <button class="filter-btn" data-filter="education"><i class="fas fa-graduation-cap"></i> Education</button>
+                <button class="filter-btn" data-filter="course"><i class="fa-solid fa-award"></i> Courses</button>
+                <button class="filter-btn" data-filter="internship"><i class="fas fa-briefcase"></i> Internships</button>
+                <button class="filter-btn" data-filter="other"><i class="fa-solid fa-file-lines"></i> Other</button>
+            </div>
+
+            <!-- Education Items -->
+            <div class="education-grid">
+                <!-- Education Items -->
+                <div class="education-item education" data-category="education">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">2021</div>
+                            <h3 class="item-title">Matriculation (10th)</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">Kamal Prasad H.S inarawa Bazar, Mainathar</p>
+                    <p class="item-organization">Bihar School Examination Board, Patna</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="Matric.pdf" target="_blank" class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">"This certificate marks the successful completion of my 10th grade
+                            education, reflecting my academic achievements and foundational knowledge across core
+                            subjects."</p>
+                        <ul>
+                            <li>Obt.marks : 402/500</li>
+                            <li>Percentage : 80.4 %</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item education" data-category="education">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">2021 - 2023</div>
+                            <h3 class="item-title">Senior Secondary (Science)</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">R.L.S.Y College, Bettiah</p>
+                    <p class="item-organization">Bihar School Examination Board, Patna</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="12th.pdf" target="_blank" class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">"This certificate represent the successful completion of my 12th
+                            grade edducation, highlighting managey academic achievementsand proficiency in subjects
+                            studied. It reflects my dedication, hard work, and preparation for higher education and
+                            future professional opportunities."</p>
+                        <ul>
+                            <li>Sub : PCM + Hindi, English</li>
+                            <li>Obt.marks : 321/500</li>
+                            <li>Percentage : 64.6%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item education" data-category="education">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">2023 - 2027</div>
+                            <h3 class="item-title">B.Tech CCE</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">Jagannath University, Jaipur</p>
+                    <p class="item-organization">On going . . . .</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <button class="journey-btn certificate-btn" onclick="showCertificates()">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </button>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">"Pursuing B.Tech in 'Computer Science and Engineering', Building
+                            knowledge and skills in programming, software development, algorithms, and data structures.
+                            Gaining practical experience in areas like data analysis, databases, and emerging
+                            technologies, preparing for future professional opportunities in the tech industry."</p>
+                    </div>
+                </div>
+
+                <div id="certificateModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-modal" onclick="hideCertificates()">&times;</span>
+                        <h3><i class="fas fa-file-certificate"></i> B.Tech Marksheets</h3>
+                        <div class="modal-certs">
+                            <a href="1st sem.pdf" target="_blank" class="cert-link">
+                                <span class="cert-icon">📄</span>
+                                <span class="cert-text">1st Semester Marksheet</span>
+                            </a>
+                            <a href="2nd sem.pdf" target="_blank" class="cert-link">
+                                <span class="cert-icon">📄</span>
+                                <span class="cert-text">2nd Semester Marksheet</span>
+                            </a>
+                            <a href="3rd sem.pdf" target="_blank" class="cert-link">
+                                <span class="cert-icon">📄</span>
+                                <span class="cert-text">3rd Semester Marksheet</span>
+                            </a>
+                            <a href="4th sem.pdf" target="_blank" class="cert-link">
+                                <span class="cert-icon">📄</span>
+                                <span class="cert-text">4th Semester Marksheet</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+
+                
+                <!-- Course Items -->
+                <div class="education-item course" data-category="course">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">July 2024 - Dec 2024</div>
+                            <h3 class="item-title">Indian Knowledge System</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">NPTEL Online Certification</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="swayam.pdf" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">"An online certification course about Indian Knowledge System
+                            covering traditional knowledge, philosophy, and scientific heritage. Gaining knowledgeof
+                            Indian history, culterand so more."</p>
+                        <ul>
+                            <li>Score : 66 %</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Internship Items -->
+                    
+                <div class="education-item internship" data-category="internship">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Summer Internship 2024</div>
+                            <h3 class="item-title">Programming Essential in Py</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">CISCO</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="Programming_Essentials.pdf" target="_blank" class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">"I'm excited to share that I've completed the Programming Essentials
+                            in Python certification. This has strengthened my understanding of fundamental programming
+                            concepts, including data structures, control flow, and problem-solving with Python. Eager to
+                            apply these skills to new projects and continue my learning journey!".</p>
+
+                        <ul>
+                            <li>Duration : july-july 2024</li>
+                            <li>* Core Concepts,</li>
+                            <li>* Data Structures,</li>
+                            <li>* Control Flow,</li>
+                            <li>* Functions & Modules, and</li>
+                            <li>* Problem-Solving.</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item internship" data-category="internship">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Summer Internship 2025</div>
+                            <h3 class="item-title">Introduction-To-Cybersecurity</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">CISCO</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="introduction to cybersecurity.pdf" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">"I'm happy to announce I finished my cybersecurity internship. The
+                            experience taught me to monitor networks and defend against attacks. I am now better
+                            prepared for a security career."</p>
+                        <ul>
+                            <li>Duration : One Month</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+              
+                
+                <!-- ds -->
+                <div class="education-item internship" data-category="internship">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Summer Internship 2025</div>
+                            <h3 class="item-title">Cybersecurity Essentials</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">CISCO</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="Cybersecurity essentials.pdf" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">In this duration [45 days], I'm understanding the "Basics of
+                            cybersecurity, Threats, Ethical hacking fundamentals, Network and data protection,
+                            Encryption and authentication, Cyber laws awareness".</p>
+                        <ul>
+                            <li>Duration : 45 days </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item internship" data-category="internship">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Summer Internship 2025</div>
+                            <h3 class="item-title">Networking Essentials</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">CISCO</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="Networking essentials.pdf" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">Completed Networking Essentials cource - learned network
+                            foundamentals, protocols, and troubleshooting techniques.</p>
+                        <ul>
+                            <li>Duration : 45 Days </li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <div class="education-item internship" data-category="internship">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Summer Internship 2025</div>
+                            <h3 class="item-title">DevOps & Cloud Computing</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">UpFlairs</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="DevOps.png.jpeg" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description"></p>
+                        <ul>
+                            <li>Duration : 45 Days </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item internship" data-category="internship">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">20 July 2025</div>
+                            <h3 class="item-title">Introduction to IoT and Digital Transformation</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">CISCO</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="introduction to IoT.pdf" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">
+                            Understanding of IoT fundamentals and connected devices, Knowledge of real-world IoT
+                            applications, Awareness of digital transformation strategies, Smart net connection system.
+                        </p>
+                        <ul>
+                            <li>Duration : 1 month</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education Items -->
+                <div class="education-item other" data-category="other">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Oct 2024</div>
+                            <h3 class="item-title">Basics of Linux Operating</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">Vodafone Idea Foundation</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="linux.png.jpeg" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">In this section of cource, i am understanding the working of linux,
+                            its types, and how to use this operating system.</p>
+                    </div>
+                </div>
+
+
+                <div class="education-item other" data-category="other">
+                    <div class="item-header">
+                        <div class="item-icon">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <div>
+                            <div class="item-date">Nev 2024</div>
+                            <h3 class="item-title">AI Tools Workshop</h3>
+                        </div>
+                    </div>
+                    <p class="item-organization">Be10X</p>
+                    <div class="item-actions">
+                        <button class="journey-btn read-more">Read More</button>
+                        <a href="b10x.png.jpeg" target="_blank"
+                            class="journey-btn certificate-btn">
+                            <i class="fas fa-certificate"></i> Certificate
+                        </a>
+                    </div>
+                    <div class="details">
+                        <p class="item-description">I'm successful completion of AI tools and ChatGPT workshop Holder of
+                            this certificate can</p>
+                        <ul>
+                            <li># Create PPts using AI in under 5 min.</li>
+                            <li># Analyse data using AI in under 30 min.</li>
+                            <li># Code and Debug using AI in under 10 min.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="section" id="project">
+        <div class="container">
+            <h2 class="section-title">My <span>Project</span></h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="" alt="Name-Style Project">
+                        <div class="music-icon-overlay">
+                            <i class="fa-solid fa-font"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3></h3>
+                        <p></p>
+                        <div class="full-description">
+                            <p></p>
+
+                            <p></p>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="" class="project-demo">
+                                View Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="read-more">
+                                Read More <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <!-- Project image with music icon overlay -->
+                        <img src="images\name-style.jpg" alt="Name-Style Project">
+                        <div class="music-icon-overlay">
+                            <i class="fa-solid fa-font"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Name Style</h3>
+                        <p>This is a stylies design of al[habet letters which is used in my name-letter.</p>
+                        <div class="full-description">
+                            <p>Our name is a brand that represent your very important role in your life. In every
+                                documentation youe name play a main role for identifying the certificate.
+                                In this letters of name each letter of color is different.
+                            </p>
+                            <p>Key features include:</p>
+                            <ul>
+                                <li>Use as a logo</li>
+                                <li>Letter move up-down direction</li>
+                                <li>Efective view</li>
+                                <li>Beautifull look</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://ashish943164.github.io/Name-style/" class="project-demo">
+                                View Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="read-more">
+                                Read More <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional project card example -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images\clock6.jpg" alt="Analog Clock">
+                        <div class="music-icon-overlay">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analog Clock</h3>
+                        <p>A simple and elegant analog clock for created using HTML, CSS, JavaScripts.</p>
+                        <div class="full-description">
+                            <p>This project showcases a simple and elegant design, with smooth and precise clock hands
+                                movement. The clock display the current time and is customizable to fit various design
+                                preferences. Feel free to explore, fork and contribute to this project.</p>
+                            <p>Key features include:</p>
+                            <ul>
+                                <li>Display current time in analog formate.</li>
+                                <li>Smooth and precise clock hands movement.</li>
+                                <li>Custmizable design and layout.</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://ashish943164.github.io/clock/" class="project-demo">
+                                View Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="read-more">
+                                Read More <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third project card example -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="" alt="Music Player">
+                        <div class="music-icon-overlay">
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Music Player</h3>
+                        <p>Experience your music with stunning visualizations that react to the audio.</p>
+                        <div class="full-description">
+                            <p>This application creates beautiful visual representations of your music in real-time.
+                                Using advanced audio processing, it generates mesmerizing patterns and animations that
+                                sync perfectly with your tracks.</p>
+                            <p>Features:</p>
+                            <ul>
+                                <li>Real-time audio analysis and visualization.</li>
+                                <li>Multiple visualization modes and themes.</li>
+                                <li>Customizable color schemes.</li>
+                                <li>Export visualizations as videos.</li>
+                                <li>Sound maintain bar.</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-demo">
+                                View Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="read-more">
+                                Read More <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fourth project card example -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images\web-developer-portfolio.png" alt="Music Player">
+                        <div class="music-icon-overlay">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>This is my portfolio website, in this website including all most related to my bio,
+                            education,project,skills,and contact details.</p>
+                        <div class="full-description">
+                            <p>I am passionate about creating innovative solutions and building meaningful projects. I
+                                enjoy learning and exploring new things. My goal is to make a positive impact through my
+                                work. I'm always looking to grow and improve.</p>
+                            <p>Features:</p>
+                            <ul>
+                                <li>Brief bio and introduction.</li>
+                                <li>Showcase of work with image.</li>
+                                <li>List of technical skills.</li>
+                                <li>Way to get in touch.</li>
+                                <li>Works well on various devices.</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-demo">
+                                View Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="read-more">
+                                Read More <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images\Screenshot 2025-08-30 090631.png" alt="University Network Design">
+                        <div class="music-icon-overlay">
+                        <i class="fa-solid fa-n"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>University Campus Network</h3>
+                        <p>A secure and scalable enterprise network design connecting multiple campuses with robust infrastructure.</p>
+                        <div class="full-description">
+                            <p>Designed and simulated a comprehensive network solution for a multi-campus university using Cisco Packet Tracer, featuring secure segmentation and seamless connectivity.</p>
+                            <ul>
+                                <li>VLAN segmentation for departmental isolation & security</li>
+                                <li>Inter-VLAN routing with Layer 3 switching</li>
+                                <li>WAN connectivity between main & branch campuses</li>
+                                <li>Future-ready for Wi-Fi, VoIP & cloud integration</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="" class="project-demo">
+                                View Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="read-more">
+                                Read More <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <!-- <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-cuttlefish"></i></div>
+                    <div class="skill-name">C</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <div class="skill-name">Python</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <div class="skill-name">HTML5</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-css3"></i></div>
+                    <div class="skill-name">CSS3</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <div class="skill-name">MongoDB</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Skills Section - Modern Design -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <center>
+                <h1 class="subtitle">Technical Expertise and Proficiency Levels</h1>
+            </center>
+
+            <!-- Skills Slider -->
+            <div class="slider-container">
+                <button class="slider-nav prev" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="skills-slider" id="skillsSlider">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category frontend">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3>Frontend Development</h3>
+                                <p>User Interface & Experience</p>
+                            </div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-details">
+                                    <div class="skill-name">HTML5</div>
+                                    <div class="skill-level-container">
+                                        <div class="skill-level">
+                                            <div class="skill-progress" style="width: 95%"></div>
+                                        </div>
+                                        <div class="skill-percentage">95%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Expandable Frontend Skills -->
+                            <div class="expandable-skills" id="frontend-expandable">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-css3-alt"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">CSS3</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 90%"></div>
+                                            </div>
+                                            <div class="skill-percentage">90%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-js"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">JavaScript</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 85%"></div>
+                                            </div>
+                                            <div class="skill-percentage">85%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-react"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">React.js</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 80%"></div>
+                                            </div>
+                                            <div class="skill-percentage">80%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="expand-btn" data-target="frontend-expandable">
+                            <span>Show More</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category backend">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3>Backend Development</h3>
+                                <p>Server & API Development</p>
+                            </div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-details">
+                                    <div class="skill-name">Python</div>
+                                    <div class="skill-level-container">
+                                        <div class="skill-level">
+                                            <div class="skill-progress" style="width: 78%"></div>
+                                        </div>
+                                        <div class="skill-percentage">78%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Expandable Backend Skills -->
+                            <div class="expandable-skills" id="backend-expandable">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-java"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">Java</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 70%"></div>
+                                            </div>
+                                            <div class="skill-percentage">70%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-node-js"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">Node.js</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 82%"></div>
+                                            </div>
+                                            <div class="skill-percentage">82%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="expand-btn" data-target="backend-expandable">
+                            <span>Show More</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+
+                    <!-- Database Skills -->
+                    <div class="skill-category database">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3>Database Management</h3>
+                                <p>Data Storage & Management</p>
+                            </div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-details">
+                                    <div class="skill-name">MySQL</div>
+                                    <div class="skill-level-container">
+                                        <div class="skill-level">
+                                            <div class="skill-progress" style="width: 80%"></div>
+                                        </div>
+                                        <div class="skill-percentage">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Expandable Database Skills -->
+                            <div class="expandable-skills" id="database-expandable">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">PostgreSQL</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 75%"></div>
+                                            </div>
+                                            <div class="skill-percentage">75%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">MongoDB</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 85%"></div>
+                                            </div>
+                                            <div class="skill-percentage">85%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-server"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">SQL Server</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 60%"></div>
+                                            </div>
+                                            <div class="skill-percentage">60%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="expand-btn" data-target="database-expandable">
+                            <span>Show More</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+
+                    <!-- Tools & Editors -->
+                    <div class="skill-category tools">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="category-info">
+                                <h3>Development Tools</h3>
+                                <p>Development Environment</p>
+                            </div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-details">
+                                    <div class="skill-name">VS Code</div>
+                                    <div class="skill-level-container">
+                                        <div class="skill-level">
+                                            <div class="skill-progress" style="width: 95%"></div>
+                                        </div>
+                                        <div class="skill-percentage">95%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Expandable Tools Skills -->
+                            <div class="expandable-skills" id="tools-expandable">
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-git-alt"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">Git</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 90%"></div>
+                                            </div>
+                                            <div class="skill-percentage">90%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">GitHub</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 88%"></div>
+                                            </div>
+                                            <div class="skill-percentage">88%</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-figma"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">Figma</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 70%"></div>
+                                            </div>
+                                            <div class="skill-percentage">70%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fas fa-terminal"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">Terminal</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 85%"></div>
+                                            </div>
+                                            <div class="skill-percentage">85%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fa-brands fa-microsoft"></i>
+                                    </div>
+                                    <div class="skill-details">
+                                        <div class="skill-name">MS Office</div>
+                                        <div class="skill-level-container">
+                                            <div class="skill-level">
+                                                <div class="skill-progress" style="width: 70%"></div>
+                                            </div>
+                                            <div class="skill-percentage">70%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="expand-btn" data-target="tools-expandable">
+                            <span>Show More</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <button class="slider-nav next" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Slider Dots -->
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Setion -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email Id</h4>
+                            <p>ravikumar143mjh@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone No</h4>
+                            <p>+91 - 7488920003</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Bettiah, W.champarana, Bihar-845454, IN</p>
+                        </div>
+                    </div>
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://t.me/ravikaushal1" target="_blank" class="social-icon">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ravi-kumar-85b826293" target="_blank"
+                                class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Ravi748892" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=7488920003" target="_blank"
+                                class="social-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <!-- <a href="https://api.whatsapp.com/send?phone=919431649783" target="_blank"
+                                class="social-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <Center>
+                                <h2>Write your query</h2>
+                            </Center>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+            <p class="copyright">&copy; <span id="currentYear"></span> Ravi Kumar. I love You !.</p>
+        </div>
+    </div>
+</footer>
+<script src="scripts.js"></script>
+</html>

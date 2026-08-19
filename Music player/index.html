@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="background-blur" id="bgBlur"></div>
+
+  <div class="app-container">
+
+    <!-- LEFT PANEL: Music Player -->
+    <div class="player-panel">
+      <div class="player-container">
+        <!-- Album Art -->
+        <div class="album-art-wrapper">
+          <div class="album-art" id="albumArt">
+            <img id="albumImage" src="https://picsum.photos/seed/song1/300/300" alt="Album Art" />
+            <div class="vinyl-overlay"></div>
+          </div>
+          <div class="glow-ring"></div>
+        </div>
+
+        <!-- Song Info -->
+        <div class="song-info">
+          <div class="song-title-row">
+            <h2 id="songTitle">Midnight Dreams</h2>
+            <button class="icon-btn like-btn" id="likeBtn" title="Like">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <p class="artist-name" id="artistName">Luna Eclipse</p>
+          <p class="album-name" id="albumName">Starlight Sessions</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-section">
+          <span class="time" id="currentTime">0:00</span>
+          <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+            <div class="progress-thumb" id="progressThumb"></div>
+          </div>
+          <span class="time" id="totalDuration">3:45</span>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+          <button class="icon-btn" id="shuffleBtn" title="Shuffle">
+            <i class="fa-solid fa-shuffle"></i>
+          </button>
+          <button class="icon-btn ctrl-btn" id="prevBtn" title="Previous">
+            <i class="fa-solid fa-backward-step"></i>
+          </button>
+          <button class="play-btn" id="playBtn" title="Play">
+            <i class="fa-solid fa-play" id="playIcon"></i>
+          </button>
+          <button class="icon-btn ctrl-btn" id="nextBtn" title="Next">
+            <i class="fa-solid fa-forward-step"></i>
+          </button>
+          <button class="icon-btn" id="repeatBtn" title="Repeat">
+            <i class="fa-solid fa-repeat"></i>
+          </button>
+        </div>
+
+        <!-- Volume Control -->
+        <div class="volume-section">
+          <button class="icon-btn vol-btn" id="muteBtn" title="Mute">
+            <i class="fa-solid fa-volume-high" id="volumeIcon"></i>
+          </button>
+          <div class="volume-bar" id="volumeBar">
+            <div class="volume-fill" id="volumeFill"></div>
+            <div class="volume-thumb" id="volumeThumb"></div>
+          </div>
+          <span class="vol-percent" id="volPercent">70%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL: Playlist -->
+    <div class="playlist-panel">
+      <div class="playlist-header">
+        <div class="playlist-header-left">
+          <i class="fa-solid fa-music"></i>
+          <h2>Playlist</h2>
+        </div>
+        <div class="playlist-header-right">
+          <span class="song-count" id="songCount">5 Songs</span>
+          <div class="search-box">
+            <i class="fa-solid fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Search songs..." />
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist-list" id="playlist"></div>
+
+      <div class="playlist-footer">
+        <div class="total-time">
+          <i class="fa-regular fa-clock"></i>
+          <span id="totalPlaylistTime">21:19 total</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Audio element (hidden) -->
+  <audio id="audioPlayer" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
